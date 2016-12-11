@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.1">
+  <compounddef id="d0/d29/main_8c" kind="file">
+    <compoundname>main.c</compoundname>
+    <includes local="no">malloc.h</includes>
+    <includes refid="d8/d40/test__define_8h" local="yes">test_define.h</includes>
+    <includes refid="d7/da2/test__struct_8h" local="yes">test_struct.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>malloc.h</label>
+      </node>
+      <node id="2">
+        <label>test_define.h</label>
+        <link refid="d8/d40/test__define_8h_source"/>
+      </node>
+      <node id="0">
+        <label>test1/main.c</label>
+        <link refid="main.c"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>test_struct.h</label>
+        <link refid="d7/da2/test__struct_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d0/d29/main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/main.c" line="7" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/main.c" bodystart="6" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;malloc.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;test_define.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;test_struct.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>main<sp/>routine<sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main()</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rtn<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dc1/structst_t_e_s_t1__" kindref="compound" tooltip="breif Struct Test1.">stTest1</ref><sp/>test1;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>test1.<ref refid="db/dc1/structst_t_e_s_t1___1aa520e758b340f29994c2b16be62dc7d4" kindref="member" tooltip="breif test1 Member test1.">ui32test1</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>test1.<ref refid="db/dc1/structst_t_e_s_t1___1a0f02ea7b94e8e66a36cb90a8ed441c76" kindref="member" tooltip="breif test1 Member stTest1_1.">sttest1_1</ref>.<ref refid="d1/d03/structst_t_e_s_t1__1___1ab15c3b493412ef3c98947e469c3ef24a" kindref="member" tooltip="breif test1_1 Member enum Test01.">eTest01</ref><sp/>=<sp/>TEST_START;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>test1.<ref refid="db/dc1/structst_t_e_s_t1___1a0f02ea7b94e8e66a36cb90a8ed441c76" kindref="member" tooltip="breif test1 Member stTest1_1.">sttest1_1</ref>.<ref refid="d1/d03/structst_t_e_s_t1__1___1af96cf620e3b39ba7305c2eef7c3506a7" kindref="member" tooltip="breif test1_1 Member test1.">ui32test1</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>test1.<ref refid="db/dc1/structst_t_e_s_t1___1abaa984fa0b4bf1e9355838f6e4fa5cc9" kindref="member" tooltip="breif test1 Member pNext - Next Pointer.">pNext</ref><sp/>=<sp/>(<ref refid="db/dc1/structst_t_e_s_t1__" kindref="compound" tooltip="breif Struct Test1.">stTest1</ref>*)malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="db/dc1/structst_t_e_s_t1__" kindref="compound" tooltip="breif Struct Test1.">stTest1</ref>));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>test1.<ref refid="db/dc1/structst_t_e_s_t1___1abaa984fa0b4bf1e9355838f6e4fa5cc9" kindref="member" tooltip="breif test1 Member pNext - Next Pointer.">pNext</ref>-&gt;<ref refid="db/dc1/structst_t_e_s_t1___1abaa984fa0b4bf1e9355838f6e4fa5cc9" kindref="member" tooltip="breif test1 Member pNext - Next Pointer.">pNext</ref><sp/>=<sp/>(<ref refid="db/dc1/structst_t_e_s_t1__" kindref="compound" tooltip="breif Struct Test1.">stTest1</ref>*)NULL;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>test1.<ref refid="db/dc1/structst_t_e_s_t1___1aa520e758b340f29994c2b16be62dc7d4" kindref="member" tooltip="breif test1 Member test1.">ui32test1</ref><sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>free(test1.<ref refid="db/dc1/structst_t_e_s_t1___1abaa984fa0b4bf1e9355838f6e4fa5cc9" kindref="member" tooltip="breif test1 Member pNext - Next Pointer.">pNext</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rtn;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/main.c"/>
+  </compounddef>
+</doxygen>

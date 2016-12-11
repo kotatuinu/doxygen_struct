@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.1">
+  <compounddef id="dir_2470d9a1ca66840d0abac8fb36eebceb" kind="dir">
+    <compoundname>test1/</compoundname>
+    <innerfile refid="d0/d29/main_8c">main.c</innerfile>
+    <innerfile refid="d8/d40/test__define_8h">test_define.h</innerfile>
+    <innerfile refid="d7/da2/test__struct_8h">test_struct.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/"/>
+  </compounddef>
+</doxygen>

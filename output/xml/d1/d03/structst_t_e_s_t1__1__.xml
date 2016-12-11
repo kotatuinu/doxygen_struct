@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.1">
+  <compounddef id="d1/d03/structst_t_e_s_t1__1__" kind="struct" prot="public">
+    <compoundname>stTEST1_1_</compoundname>
+    <includes refid="d7/da2/test__struct_8h" local="no">test_struct.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d03/structst_t_e_s_t1__1___1af96cf620e3b39ba7305c2eef7c3506a7" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 stTEST1_1_::ui32test1</definition>
+        <argsstring></argsstring>
+        <name>ui32test1</name>
+        <briefdescription>
+<para>breif test1_1 Member test1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="17" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d03/structst_t_e_s_t1__1___1a9d9ea1c767d3520934f265292933980f" prot="public" static="no" mutable="no">
+        <type>UINT8</type>
+        <definition>UINT8 stTEST1_1_::ui8Padding[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>ui8Padding</name>
+        <briefdescription>
+<para>breif test1_1 Member Padding. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="18" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d03/structst_t_e_s_t1__1___1ab15c3b493412ef3c98947e469c3ef24a" prot="public" static="no" mutable="no">
+        <type>eTEST01</type>
+        <definition>eTEST01 stTEST1_1_::eTest01</definition>
+        <argsstring></argsstring>
+        <name>eTest01</name>
+        <briefdescription>
+<para>breif test1_1 Member enum Test01. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="19" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>breif Struct Test1_1. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="16" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="16" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d1/d03/structst_t_e_s_t1__1___1ab15c3b493412ef3c98947e469c3ef24a" prot="public" virt="non-virtual"><scope>stTEST1_1_</scope><name>eTest01</name></member>
+      <member refid="d1/d03/structst_t_e_s_t1__1___1af96cf620e3b39ba7305c2eef7c3506a7" prot="public" virt="non-virtual"><scope>stTEST1_1_</scope><name>ui32test1</name></member>
+      <member refid="d1/d03/structst_t_e_s_t1__1___1a9d9ea1c767d3520934f265292933980f" prot="public" virt="non-virtual"><scope>stTEST1_1_</scope><name>ui8Padding</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

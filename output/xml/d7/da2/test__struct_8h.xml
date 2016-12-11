@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.1">
+  <compounddef id="d7/da2/test__struct_8h" kind="file">
+    <compoundname>test_struct.h</compoundname>
+    <includes refid="d8/d40/test__define_8h" local="yes">test_define.h</includes>
+    <includedby refid="d0/d29/main_8c" local="yes">test1/main.c</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>test_define.h</label>
+        <link refid="d8/d40/test__define_8h_source"/>
+      </node>
+      <node id="9">
+        <label>test1/test_struct.h</label>
+        <link refid="test_struct.h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="12">
+        <label>test1/main.c</label>
+        <link refid="d0/d29/main_8c_source"/>
+      </node>
+      <node id="11">
+        <label>test1/test_struct.h</label>
+        <link refid="test_struct.h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d1/d0c/unionu_t_e_s_t2__" prot="public">uTEST2_</innerclass>
+    <innerclass refid="d1/d03/structst_t_e_s_t1__1__" prot="public">stTEST1_1_</innerclass>
+    <innerclass refid="db/dc1/structst_t_e_s_t1__" prot="public">stTEST1_</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d7/da2/test__struct_8h_1a0b39d6d754cb24c708b0f2bdbe88130e" prot="public" static="no">
+        <type>unsigned long</type>
+        <definition>typedef unsigned long UINT32</definition>
+        <argsstring></argsstring>
+        <name>UINT32</name>
+        <briefdescription>
+<para>breif Datatype UINT32(unsigned long). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="6" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/da2/test__struct_8h_1a91a1089b6e9509014e54ffdac8f335cb" prot="public" static="no">
+        <type>union <ref refid="d1/d0c/unionu_t_e_s_t2__" kindref="compound">uTEST2_</ref></type>
+        <definition>typedef union uTEST2_  uTest2</definition>
+        <argsstring></argsstring>
+        <name>uTest2</name>
+        <briefdescription>
+<para>breif Union Test2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="13"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/da2/test__struct_8h_1a89b763e72e9abe05aff1af8718ebdb9c" prot="public" static="no">
+        <type>struct <ref refid="d1/d03/structst_t_e_s_t1__1__" kindref="compound">stTEST1_1_</ref></type>
+        <definition>typedef struct stTEST1_1_  stTest1_1</definition>
+        <argsstring></argsstring>
+        <name>stTest1_1</name>
+        <briefdescription>
+<para>breif Struct Test1_1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="20"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/da2/test__struct_8h_1a83b62de6825a58025898ecf11e9f8ce6" prot="public" static="no">
+        <type>struct <ref refid="db/dc1/structst_t_e_s_t1__" kindref="compound">stTEST1_</ref></type>
+        <definition>typedef struct stTEST1_  stTest1</definition>
+        <argsstring></argsstring>
+        <name>stTest1</name>
+        <briefdescription>
+<para>breif Struct Test1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TEST_STRUCT_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TEST_STRUCT_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;test_define.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>UINT32;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9" refid="d1/d0c/unionu_t_e_s_t2__" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="d1/d0c/unionu_t_e_s_t2__" kindref="compound" tooltip="breif Union Test2.">uTEST2_</ref><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="d1/d0c/unionu_t_e_s_t2___1ab8d2a30053ea0fbcbb3d62844bb8e9c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="d1/d0c/unionu_t_e_s_t2___1ab8d2a30053ea0fbcbb3d62844bb8e9c1" kindref="member" tooltip="breif uTest2 Member ulmember1.">ulmember1</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11" refid="d1/d0c/unionu_t_e_s_t2___1a4ec60a78007be78dd9afa75c9ffe52d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d0c/unionu_t_e_s_t2___1a4ec60a78007be78dd9afa75c9ffe52d9" kindref="member" tooltip="breif uTest2 Member uimember2.">uimember2</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12" refid="d1/d0c/unionu_t_e_s_t2___1a49829a2fa70b7e01b0851fe55596747a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="d1/d0c/unionu_t_e_s_t2___1a49829a2fa70b7e01b0851fe55596747a" kindref="member" tooltip="breif uTest2 Member ucmember3.">ucmember3</ref>[5];<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}<sp/><ref refid="d1/d0c/unionu_t_e_s_t2__" kindref="compound" tooltip="breif Union Test2.">uTest2</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="d1/d03/structst_t_e_s_t1__1__" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d1/d03/structst_t_e_s_t1__1__" kindref="compound" tooltip="breif Struct Test1_1.">stTEST1_1_</ref><sp/>{</highlight></codeline>
+<codeline lineno="17" refid="d1/d03/structst_t_e_s_t1__1___1af96cf620e3b39ba7305c2eef7c3506a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UINT32<sp/><sp/><ref refid="d1/d03/structst_t_e_s_t1__1___1af96cf620e3b39ba7305c2eef7c3506a7" kindref="member" tooltip="breif test1_1 Member test1.">ui32test1</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18" refid="d1/d03/structst_t_e_s_t1__1___1a9d9ea1c767d3520934f265292933980f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UINT8<sp/><sp/><sp/><ref refid="d1/d03/structst_t_e_s_t1__1___1a9d9ea1c767d3520934f265292933980f" kindref="member" tooltip="breif test1_1 Member Padding.">ui8Padding</ref>[4];<sp/><sp/></highlight></codeline>
+<codeline lineno="19" refid="d1/d03/structst_t_e_s_t1__1___1ab15c3b493412ef3c98947e469c3ef24a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>eTEST01<sp/><ref refid="d1/d03/structst_t_e_s_t1__1___1ab15c3b493412ef3c98947e469c3ef24a" kindref="member" tooltip="breif test1_1 Member enum Test01.">eTest01</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}<sp/><ref refid="d1/d03/structst_t_e_s_t1__1__" kindref="compound" tooltip="breif Struct Test1_1.">stTest1_1</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="db/dc1/structst_t_e_s_t1__" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="db/dc1/structst_t_e_s_t1__" kindref="compound" tooltip="breif Struct Test1.">stTEST1_</ref><sp/>{</highlight></codeline>
+<codeline lineno="24" refid="db/dc1/structst_t_e_s_t1___1a860bd6ef067d139d70e46a2fd7ed8062" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d0c/unionu_t_e_s_t2__" kindref="compound" tooltip="breif Union Test2.">uTest2</ref><sp/><sp/><ref refid="db/dc1/structst_t_e_s_t1___1a860bd6ef067d139d70e46a2fd7ed8062" kindref="member" tooltip="breif test1 Member test2.">utest2</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25" refid="db/dc1/structst_t_e_s_t1___1aa520e758b340f29994c2b16be62dc7d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UINT32<sp/><sp/><ref refid="db/dc1/structst_t_e_s_t1___1aa520e758b340f29994c2b16be62dc7d4" kindref="member" tooltip="breif test1 Member test1.">ui32test1</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26" refid="db/dc1/structst_t_e_s_t1___1a34ea77f66a90ab3e6652cd447c3b890f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UINT8<sp/><sp/><sp/><ref refid="db/dc1/structst_t_e_s_t1___1a34ea77f66a90ab3e6652cd447c3b890f" kindref="member" tooltip="breif test1 Member Padding.">ui8Padding</ref>[4];<sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="db/dc1/structst_t_e_s_t1___1a0f02ea7b94e8e66a36cb90a8ed441c76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d03/structst_t_e_s_t1__1__" kindref="compound" tooltip="breif Struct Test1_1.">stTest1_1</ref><sp/><sp/><sp/><ref refid="db/dc1/structst_t_e_s_t1___1a0f02ea7b94e8e66a36cb90a8ed441c76" kindref="member" tooltip="breif test1 Member stTest1_1.">sttest1_1</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="28" refid="db/dc1/structst_t_e_s_t1___1abaa984fa0b4bf1e9355838f6e4fa5cc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="db/dc1/structst_t_e_s_t1__" kindref="compound" tooltip="breif Struct Test1.">stTEST1_</ref><sp/>*<ref refid="db/dc1/structst_t_e_s_t1___1abaa984fa0b4bf1e9355838f6e4fa5cc9" kindref="member" tooltip="breif test1 Member pNext - Next Pointer.">pNext</ref>;<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}<sp/><ref refid="db/dc1/structst_t_e_s_t1__" kindref="compound" tooltip="breif Struct Test1.">stTest1</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>TEST_STRUCT_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h"/>
+  </compounddef>
+</doxygen>

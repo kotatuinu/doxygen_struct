@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.1">
+  <compounddef id="d1/d0c/unionu_t_e_s_t2__" kind="union" prot="public">
+    <compoundname>uTEST2_</compoundname>
+    <includes refid="d7/da2/test__struct_8h" local="no">test_struct.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d0c/unionu_t_e_s_t2___1ab8d2a30053ea0fbcbb3d62844bb8e9c1" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long uTEST2_::ulmember1</definition>
+        <argsstring></argsstring>
+        <name>ulmember1</name>
+        <briefdescription>
+<para>breif uTest2 Member ulmember1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="10" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d0c/unionu_t_e_s_t2___1a4ec60a78007be78dd9afa75c9ffe52d9" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int uTEST2_::uimember2</definition>
+        <argsstring></argsstring>
+        <name>uimember2</name>
+        <briefdescription>
+<para>breif uTest2 Member uimember2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="11" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d0c/unionu_t_e_s_t2___1a49829a2fa70b7e01b0851fe55596747a" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char uTEST2_::ucmember3[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>ucmember3</name>
+        <briefdescription>
+<para>breif uTest2 Member ucmember3. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="12" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>breif Union Test2. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" line="9" bodyfile="C:/Users/kotat_000/Documents/GitHub/doxygen_struct/test1/test_struct.h" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="d1/d0c/unionu_t_e_s_t2___1a49829a2fa70b7e01b0851fe55596747a" prot="public" virt="non-virtual"><scope>uTEST2_</scope><name>ucmember3</name></member>
+      <member refid="d1/d0c/unionu_t_e_s_t2___1a4ec60a78007be78dd9afa75c9ffe52d9" prot="public" virt="non-virtual"><scope>uTEST2_</scope><name>uimember2</name></member>
+      <member refid="d1/d0c/unionu_t_e_s_t2___1ab8d2a30053ea0fbcbb3d62844bb8e9c1" prot="public" virt="non-virtual"><scope>uTEST2_</scope><name>ulmember1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
