@@ -10,7 +10,7 @@ c言語の構造体を、Doxygenの出力結果からExcelに展開する。
 階層構造となっている、構造体も展開できます。
 それにしてもオフシェアって糞コードしか作らないんですかね？  
 
-  ![doxygen_struct 1](pict\1.jpg)  
+  ![doxygen_struct 1](pict/1.jpg)  
 
 
 （１）ソースの書き方（コメント）  
@@ -65,7 +65,7 @@ XML出力結果のディレクトリ（index.xmlのあるフォルダ）を指�
 「全体構造体展開」ボタンを押下する。  
 構造体の数が多いと時間がかかります。
 
-![doxygen_struct 2](pict\2.jpg)  
+![doxygen_struct 2](pict/2.jpg)  
 
 出力結果はExcel表としてシートに出力。  
 シート名は構造体名。  
@@ -73,11 +73,11 @@ XML出力結果のディレクトリ（index.xmlのあるフォルダ）を指�
 
 以下、出力結果。  
 * 全体構造体展開を実行したときは、「構造体一覧」シートを作成します。  
-![doxygen_struct 2](pict\2-1.jpg)  
+![doxygen_struct 2](pict/2-1.jpg)  
 
 * 出力結果は、メンバ名（変数）を階層的に出力、データ型、概要説明の順。　　
-![doxygen_struct 2](pict\2-2.jpg)  
-![doxygen_struct 2](pict\2-3.jpg)  
+![doxygen_struct 2](pict/2-2.jpg)  
+![doxygen_struct 2](pict/2-3.jpg)  
 
 
 ## ■免責・お願い
